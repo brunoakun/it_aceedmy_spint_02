@@ -10653,6 +10653,10 @@ fieldset:disabled .btn {
   text-transform: uppercase;
 }
 
+.navbar-light .navbar-nav .active {
+  color: #fa5959 !important;
+}
+
 .btn-secondary {
   color: #fff;
 }
@@ -10675,5 +10679,101 @@ fieldset:disabled .btn {
 .btn-firefox {
   color: black;
   background-color: #fff;
+  border-color: #505050;
+}
+
+.btn-firefox:hover {
+  background-color: #505050;
+}
+
+.btn-firefox:active {
+  background-color: #505050;
+}
+
+.btn-firefox:focus {
+  background-color: #505050;
+}
+
+.fondo-forma-azul {
+  position: relative;
+}
+
+.fondo-forma-azul::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  z-index: -1;
+  width: calc(100% - 95px);
+  height: 20em;
+  background: #5265e1;
+  border-top-left-radius: 25rem;
+  border-bottom-left-radius: 25rem;
+  transform: translateY(-25%);
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 6px solid red;
+}
+
+.fondo-forma-azul02 {
+  position: relative;
+}
+
+.fondo-forma-azul02::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  z-index: -1;
+  width: calc(100% - 95px);
+  height: 15em;
+  background: #5265e1;
+  border-top-right-radius: 25rem;
+  border-bottom-right-radius: 25rem;
+  transform: translateY(-25%);
+}
+
+@media (min-width: 991px) {
+  .card01 {
+    margin-top: 50px !important;
+  }
+  .card02 {
+    margin-top: 100px !important;
+  }
+  .card03 {
+    margin-top: 150px !important;
+  }
+}
+
+.fondoAzul {
+  background-color: #5265e1;
+  color: white;
+}
+
+.footer-txt01 {
+  letter-spacing: 0.25em;
+}
+
+.form-control::placeholder {
+  font-size: 1rem;
+}
+
+#footer-menu {
+  background-color: #293371;
+}
+
+#footer-menu a {
+  color: white;
+}
+
+#footer-menu a:hover {
+  color: #fa5959;
+}
+
+#footer-menu .footer-icon:hover .icon {
+  fill: #fa5959;
 }
 /*# sourceMappingURL=app.css.map */
