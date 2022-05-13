@@ -11,13 +11,12 @@ $btn-hover-bg-color: green;
 // Importar bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-
 /*****************************************
         Modificar css normal
 ******************************************/
 
 .navbar-light .navbar-nav .nav-link {
-    text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 .btn-secondary {
@@ -37,3 +36,8 @@ $btn-hover-bg-color: green;
 	}
 }
 
+.btn-firefox { 
+	color: black;
+	background-color: $body-bg;	 
+	background-color: green;
+}
