@@ -1,0 +1,30 @@
+Llavors hauràs d'implementar:
+
+- La barra de navegació superior fixa, utilitzant el component "navBar" de Bootstrap.
+
+- El contingut principal, mitjançant el grid responsive que proporciona Bootstrap per dividir la pantalla en dues columnes, 
+a l'esquerra com pots veure està: l'eslògan, la descripció i els botons. I a la columna dreta la imatge.
+
+
+
+Important: En aquest link tens les imatges que necessitaràs per a desenvolupar la web.
+
+Ajuda: Abans de començar amb la web, hauràs de veure el vídeo recomanat anteriorment,
+ per a aprendre a instal·lar Bootstrap en el teu projecte utilizant el gestor de paquets npm.
+
+
+
+Requisits mínims: 
+
+- Instal·lar Boostrap en el projecte, no utilitzar cdn (que és càrrega mitjançant per link, 
+com per exemple "<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/...." rel="stylesheet" crossorigin="anonymous">").
+
+- Utilitzar el component navBar de Boostrap.
+
+- Utilitzar Grid Responsive de Bootstrap, ja que s'ha de veure bé en tauleta i mòbil.
+
+- Modificar amb SASS, mitjançant l'arxiu creat per tu "main.scss", el color principal i secundari de Boostrap. 
+Usa aquestes variables per al color dels botons
+
+Color principal: #5265E1
+Color secundari: #FA5959. 

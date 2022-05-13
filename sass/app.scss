@@ -1,0 +1,39 @@
+// Custom bvariables
+$primary: #5265e1;
+$secondary: #fa5959;
+
+// nav
+$navbar-light-color: #000;
+$navbar-light-hover-color: $secondary;
+
+$btn-hover-bg-color: green;
+
+// Importar bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+/*****************************************
+        Modificar css normal
+******************************************/
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase; 
+}
+
+.btn-secondary {
+	color: $body-bg;
+
+	&:hover {
+		color: $secondary;
+		background-color: $body-bg;
+	}
+	&:active {
+		color: $secondary;
+		background-color: $body-bg;
+	}
+	&:focus {
+		color: $secondary;
+		background-color: $body-bg;
+	}
+}
+
