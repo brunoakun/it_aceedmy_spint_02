@@ -10776,4 +10776,8 @@ fieldset:disabled .btn {
 #footer-menu .footer-icon:hover .icon {
   fill: #fa5959;
 }
+
+#footer-menu .logoBlanco:hover .img {
+  fill: #fa5959;
+}
 /*# sourceMappingURL=app.css.map */

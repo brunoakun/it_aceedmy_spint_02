@@ -150,4 +150,10 @@ $btn-hover-bg-color: green;
 			fill: $secondary;
 		}
 	}
+
+	.logoBlanco {
+		&:hover .img {
+			fill: $secondary;
+		}
+	}
 }
