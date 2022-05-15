@@ -118,8 +118,6 @@ $btn-hover-bg-color: green;
 	}
 }
 
-
-
 // Footeer
 
 .fondoAzul {
@@ -137,14 +135,14 @@ $btn-hover-bg-color: green;
 
 #footer-menu {
 	background-color: shade-color($primary, 50);
-	
+
 	a {
 		color: white;
 		&:hover {
 			color: $secondary;
 		}
 	}
-	
+
 	.footer-icon {
 		&:hover .icon {
 			fill: $secondary;
@@ -156,4 +154,10 @@ $btn-hover-bg-color: green;
 			fill: $secondary;
 		}
 	}
+}
+
+// Formulario de contacto
+.invalid-feedback {
+	background-color: $secondary !important;
+	color: antiquewhite;
 }

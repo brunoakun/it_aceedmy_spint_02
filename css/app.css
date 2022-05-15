@@ -10780,4 +10780,9 @@ fieldset:disabled .btn {
 #footer-menu .logoBlanco:hover .img {
   fill: #fa5959;
 }
+
+.invalid-feedback {
+  background-color: #fa5959 !important;
+  color: antiquewhite;
+}
 /*# sourceMappingURL=app.css.map */
